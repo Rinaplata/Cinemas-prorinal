@@ -1,5 +1,5 @@
 <template>
-    Home
+   <span style="color: brown;">Home</span> Home
 </template>
 
 <style>
@@ -10,6 +10,8 @@ body{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+
+
 
 }
 
