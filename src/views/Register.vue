@@ -1,14 +1,14 @@
 <template>
   <div class="form">
     <h1>Create an Account</h1>
-    <p>
+    <section>
       <input class="email" type="text" placeholder="Email" v-model="email" />
       <input type="password" placeholder="Password" v-model="password" /><br />
       <button class="submit" @click="register">Sumbit</button>
       <button class="google" @click="signInWithGoogle">
         <img src="../assets/IconGoogle.jpeg" alt="" /> Sign In With Google
       </button>
-    </p>
+    </section>
   </div>
 </template>
 
