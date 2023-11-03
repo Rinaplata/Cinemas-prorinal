@@ -7,7 +7,7 @@
       <p class="error" v-if="errMsg">{{ errMsg }}</p>
       <button class="submit" @click="register">Sumbit</button>
       <button class="google" @click="signInWithGoogle">
-        <img src="../assets/IconGoogle.jpeg" alt="" />Sign In With Google
+        <img class="icon" src="../assets/IconGoogle.jpeg" alt="" />Sign In With Google
       </button>
     </section>
   </div>
@@ -103,7 +103,7 @@ button {
   margin-left: 70px;
 }
 
-img {
+.icon {
   width: 18px;
   margin-right: 20px;
 }
