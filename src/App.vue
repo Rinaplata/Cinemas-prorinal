@@ -5,6 +5,7 @@
 </script>
 
 <template> 
+
 <HeaderComponent/>
   <main>
       <RouterView/>
@@ -13,5 +14,4 @@
 </template>
 
 <style scoped>
-
 </style>
