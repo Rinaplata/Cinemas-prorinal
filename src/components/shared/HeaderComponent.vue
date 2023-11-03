@@ -3,9 +3,9 @@
     <nav>
         <div >
             <RouterLink class="ml-4" to="/">Home</RouterLink>
-            <RouterLink class="ml-4" to="/">Fedd</RouterLink>
-            <RouterLink class="ml-4" to="/login">Iniciar Sesión</RouterLink>
-            <RouterLink  class="ml-4" to="/singup">Registrate</RouterLink>
+            <RouterLink class="ml-4" to="/feed">Fedd</RouterLink>
+            <RouterLink class="ml-4" to="/sign-in">Iniciar Sesión</RouterLink>
+            <RouterLink  class="ml-4" to="/register">Registrate</RouterLink>
         </div>
         <div >
             <button @click="handleSignOut" v-if="isLoggedIn">Sign out</button>
