@@ -40,7 +40,6 @@
 
     <div class="content">
         Cuando se descubre petróleo en la Oklahoma de los años 20, bajo las tierras de la nación Osage, sus pobladores son asesinados uno a uno hasta que el FBI interviene para resolver los crímenes.
-     
     </div>
   </div>
 </div>
@@ -62,13 +61,16 @@ body {
 }
 .title{
     position: relative;
-    top: 100px;
+    top: 50px;
     text-align: center;
     padding: 20px;
 }
 
 .card{
+    position: relative;
+    top: 50px;
     margin: 10px;
+    margin-bottom: 100px;
 }
 .badass-todo{
     display: flex;
@@ -79,10 +81,41 @@ body {
     padding: 70px;
 }
 
+.content{
+    height: 120px;
+}
+
 .pelicula1{
     width: 120px;
     height: 100px;
 }
 
+.footer {
+  background-color: #f6f6f6;
+  padding: 5px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  max-height: 150px;
 
+}
+
+.text-light{
+color: #000000;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin: 4px;
+}
+
+.footer-content {
+  max-height: 100px;
+  margin: -25px;
+}
+
+
+.footer-logo {
+  max-width: 100px; 
+  margin: 2px;
+}
 </style>

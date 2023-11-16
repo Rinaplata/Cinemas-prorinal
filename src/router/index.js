@@ -12,13 +12,13 @@ const router = createRouter({
             path: "/feed", 
             component: () => import("../views/Feed.vue"),
             meta: {
-                requiresAuth: true
+                requiresAuth: false
             }
         },
     ]
 })
 
-const getCurrentUser = () =>{
+/* const getCurrentUser = () =>{
     return new Promise((resolve, reject) => {
         const removeListener = onAuthStateChanged(
             getAuth(),
@@ -28,7 +28,7 @@ const getCurrentUser = () =>{
             },
             reject)
     })
-}
+} */
 
 router.beforeEach(async(to, from, next)=>{
     if(to.matched.some((record)=> record.meta.requiresAuth)){

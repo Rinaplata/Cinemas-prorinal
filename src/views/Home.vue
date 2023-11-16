@@ -1,17 +1,8 @@
 <template>
-  <div class="home-container">
+  <div class="Home-container">
     <div class="welcome-text">
       <h1>Bienvenido a Cinema Prorinal</h1>
       <span class="text-p">
-        <p>
-          Cinema Prorinal es una plataforma de entretenimiento digital que se
-          especializa en la distribución y exhibición de contenido audiovisual
-          de diversos géneros, incluyendo películas, series de televisión,
-          documentales y otros programas. Con un enfoque en brindar una
-          experiencia de entretenimiento de alta calidad, Cinema Prorinal ofrece
-          una amplia variedad de opciones para usuarios de todas las edades y
-          preferencias
-        </p>
       </span>
     </div>
   </div>
@@ -33,7 +24,6 @@ body {
   width: 50%;
   text-align: left;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  bottom: 100px;
 }
 
 .text-p {
@@ -43,7 +33,9 @@ body {
   font-size: 24px;
 }
 
-.home-container {
+.Home-container {
   color: #fff;
+  display: flex;
+  flex-direction: column;
 }
 </style>

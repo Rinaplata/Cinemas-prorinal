@@ -11,6 +11,7 @@
       </button>
     </section>
   </div>
+
 </template>
 
 <script setup>
@@ -50,6 +51,8 @@ const register = () => {
 
 const signInWithGoogle = () => {};
 </script>
+
+
 <style>
 body {
   background-image: url(../assets/Cinema.jpeg);
@@ -58,7 +61,7 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-}
+} 
 
 .form {
   display: flex;

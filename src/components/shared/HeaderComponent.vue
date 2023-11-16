@@ -18,6 +18,9 @@
       <RouterLink v-if="!isLoggedIn" class="nav-link" to="/register"
         >Registrate</RouterLink
       >
+      <RouterLink v-if="!isLoggedIn" class="nav-link" to="/admi"
+        >Admi</RouterLink
+      >
     </div>
     <div class="sign-out">
       <button @click="handleSignOut" v-if="isLoggedIn">Sign out</button>
