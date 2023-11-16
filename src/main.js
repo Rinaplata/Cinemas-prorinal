@@ -1,8 +1,21 @@
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
-
 import App from './App.vue'
 import router from './router'
+
+
+import 'vuetify/dist/vuetify.min.css'
+
+
+import { createVuetify } from 'vuetify'
+import * as components from 'vuetify/components'
+import * as directives from 'vuetify/directives'
+
+const vuetify = createVuetify({
+  components,
+  directives,
+})
+
 
 const app = createApp(App)
 
@@ -21,10 +34,11 @@ const firebaseConfig = {
   appId: "1:363724900794:web:9ed03707d1784ee88d3583"
 };
 
+
 // Initialize Firebase
 initializeApp(firebaseConfig);
 
 app.use(createPinia())
 app.use(router)
-
 app.mount('#app')
+app.use(vuetify)

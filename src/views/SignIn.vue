@@ -87,6 +87,7 @@ input {
   margin-top: 25px;
   border: none;
   outline: none;
+  background: #f4f1f4;
 }
 button {
   margin-top: 25px;
